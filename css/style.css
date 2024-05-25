@@ -392,13 +392,35 @@ height: auto;
 }
 
 .navegacion-footer{
+    background-color: black;
+    width: 70%;
+    height: 60px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+}
+.navegacion-footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: blueviolet;
+    padding: 25px 50px;
+}
 
+.navegacion-footer a:hover{
+    color: black;
+    background-color: rgb(218, 185, 87) ;
 }
 
 .textos-s4{
-
+    background-color: blueviolet;
 }
 .footer{
+    background-color: chartreuse;
 
 }
 
