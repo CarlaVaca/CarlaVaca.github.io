@@ -378,3 +378,28 @@ height: auto;
     
 }
 /*fin seccion 3*/
+
+/*Inicio seccion 4*/
+
+.seccion-4{
+    background-color: aqua;
+    width: 70%;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacion-footer{
+
+}
+
+.textos-s4{
+
+}
+.footer{
+    
+}
+
+/*fin seccion 4*/
