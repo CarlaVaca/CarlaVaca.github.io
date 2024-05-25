@@ -117,6 +117,16 @@
     align-items: center;
     padding: 5% 0;
 }
+.seccion-2H{
+    background-color: rgb(203,231,196);
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+}
 .bloque-izq{
     width: 60%;
     height: 100%;
@@ -154,9 +164,12 @@
     width: 100%;
 }
 .izq-parrafo{
-    
     font-size: 18px;
-
+}
+.izq-parrafoH{
+    font-size: 15px;
+    align-items: center;
+    margin: 20px 0;
 }
 
 .bloque-der{
@@ -219,7 +232,7 @@
 .seccion-3{
     background-color: aqua;
     width: 70%;
-    height: 120vh;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -251,7 +264,7 @@
 }
 .tabla-titulo h3{
     font-size: 18px;
-    margin-top: 10%;
+    margin-top: 5%;
     color: rgb(63,63,63);
     
 }
@@ -261,37 +274,66 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 50%;
-    margin: 30px 0;
+    height: 40%;
+    margin: 20px 0;
+}
+.tablaDivPro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    margin: 10px 0;
 }
 .table{
+    table-layout: auto;
+    border: 1px solid black;
+    border: collapse;
+    width:60%;
+    height: 100%;
+}
+
+.tablaProducto{
     table-layout: auto;
     border: 1px solid black;
     border: collapse;
     width: 100%;
     height: 100%;
 }
+
 .fila-encabezado{
     background-color: greenyellow;
     width: auto;
     height: 40px;
 }
+.fila-encabezadoP{
+    background-color: greenyellow;
+    width: auto;
+    height: 20px;
+}
 .fila-dato{
     width: auto;
     height: 40px;
-
+}
+.fila-datoP{
+    width: auto;
+    height: 40px;
+    align-items: center;
 }
 .fila-dato:nth-child(odd){
     background-color: rgb(245,245,245);
     
 }
 .fila-dato:nth-child(even){
-    background-color: rgb(231,231,231);
+    background-color: rgb(209, 203, 203);
     
 }
 .columna{
-    border: 1px solid black;
     text-align: center;
+}
+.columnaP{
+    align-items: center;
+    
 }
 .rs-div{
 width: 100%;
@@ -309,14 +351,13 @@ height: auto;
     margin: 0 10px;
 }
 .aside{
-    background-color: red;
     width: 40%;
     height: 100%;
 }
 .mapa{
     background-color: aqua;
     width: 100%;
-    height: 35%;
+    height: 40%;
 }
 .mapa iframe{
     width: 100%;
@@ -326,7 +367,7 @@ height: auto;
 .form-div{
     background-color: rgb(8, 8, 8);
     width: 100%;
-    height: 65%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -344,12 +385,12 @@ height: auto;
 }
 .form-div h3{
     font-size: 20px;
-    padding: 15px 0;
+    padding: 10px 0;
 
 }
 .form-div p{
     font-size: 14px;
-    padding: 15px 0;
+    padding: 10px 0;
     text-align: center;
 }
 .input{
