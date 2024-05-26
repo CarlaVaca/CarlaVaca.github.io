@@ -249,6 +249,10 @@
     align-items: center;
 
 }
+.imagen {
+    width: 100px;
+    height: 100px;
+}
 .tabla-titulo{
     
     width: 100%;
