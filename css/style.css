@@ -73,7 +73,7 @@
     background-image: url(../img/tecno.jpg);
     width: 70%;
     background-position: center;
-    height: calc(90vh - 110px);
+    height: calc(90vh - 400px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,7 +110,7 @@
 .seccion-2{
     background-color: rgb(203,231,196);
     width: 70%;
-    height: 85vh;
+    height: 80vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -135,7 +135,7 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    padding: 0 3%;
+    padding: 0 2%;
 
 }
 .izq-titulo{
