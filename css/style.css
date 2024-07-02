@@ -164,7 +164,9 @@
     width: 100%;
 }
 .izq-parrafo{
-    font-size: 18px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 .izq-parrafoH{
     font-size: 15px;
@@ -175,7 +177,6 @@
 .bloque-der{
     width: 40%;
     height: 100;
-    
     padding: 0 3%;
 }
 .der-titulo{
@@ -429,83 +430,21 @@ height: auto;
 .seccion-4{
     background-color: rgb(8, 8, 8);
     width: 70%;
-    height: 50vh;
+    height: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.navegacion-footer{
-    width: 100%;
-    height: 60px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-.navegacion-footer a{
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-    padding: 25px 50px;
-}
-
-.navegacion-footer a:hover{
-    color: black;
-    background-color: rgb(218, 185, 87) ;
-}
-.contenedor-s4{
-    width: 100%;
-    height: calc(100% - 120px);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-}
-
-.textos-s4{
-   width: 25%;
-   height: auto;
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-start;
-   align-items: center;
-   padding-top: 5%;
-}
-.textos-s4 a{
-    
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    margin: 5px 0;
- }
-
-.textos-s4 h3{
-    color: white;
-    font-size: 24px;
- 
-}
-.textos-s4:nth-child(odd){
-   background-color: black;
-}
-.textos-s4:nth-child(even){
-    background-color: rgb(43, 42, 42);
-}
-
-
 .footer{
     width: 100%;
-    height: 60px;
+    height: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     color: white;
-
-
 }
 
 .footer a{
@@ -514,8 +453,6 @@ font-size: 18px;
 color: white;
 }
 
-.footer p{
-
-}
+.
 
 /*fin seccion 4*/
