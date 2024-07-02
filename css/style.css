@@ -172,7 +172,9 @@
     font-size: 15px;
     align-items: center;
     margin: 20px 0;
+    color: blue;
 }
+
 
 .bloque-der{
     width: 40%;
@@ -225,6 +227,11 @@
     font-size: 14px;
     margin-top: 10px;
 }
+.red-text-shadow {
+    text-shadow: rgb(252, 77, 199) 0 -2px;
+    text-decoration-color: blue;
+  }
+  
 
 /*fin seccion 2*/
 
